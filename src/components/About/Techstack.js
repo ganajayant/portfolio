@@ -6,13 +6,13 @@ import {
   DiMongodb,
   DiNodejs,
   DiPython,
-  DiReact,
-  DiTypescript
+  DiReact
 } from "react-icons/di";
 import {
   SiExpress,
   SiFirebase,
-  SiPytorch
+  SiPytorch,
+  SiTypescript
 } from "react-icons/si";
 
 function Techstack() {
@@ -22,7 +22,7 @@ function Techstack() {
         <DiJava />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiTypescript />
+        <SiTypescript />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
